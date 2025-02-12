@@ -132,8 +132,8 @@ export default function AddSpeciesDialog({ userId }: { userId: string }) {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button variant="secondary">
-          <Icons.add className="mr-3 h-5 w-5" />
+      <Button variant="secondary">
+        <Icons.add className="mr-3 h-5 w-5" />
           Add Species
         </Button>
       </DialogTrigger>
